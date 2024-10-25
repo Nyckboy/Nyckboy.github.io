@@ -1,59 +1,3 @@
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-}
-
-section {
-    margin: 20px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-}
-
-th {
-    background-color: #4CAF50;
-    color: white;
-}
-
-img {
-    display: block;
-    margin: 10px 0;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-} */
-
-
-/* General Styles */
 body {
     margin: 0;
     padding: 0;
@@ -75,7 +19,6 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Styling */
 section {
     margin: 20px auto;
     padding: 20px;
@@ -88,16 +31,16 @@ section {
 .about-content {
     display: flex;
     align-items: center;
-    gap: 20px; /* Adds space between the text and image */
+    gap: 20px; 
 }
 
 .about-content p {
-    flex: 2; /* Make the paragraph take more space */
-    text-align: justify; /* Neat justified text */
+    flex: 2; 
+    text-align: justify;
 }
 
 .profile-img {
-    flex: 1; /* Image takes less space compared to the paragraph */
+    flex: 1; 
     width: 150px !important;
     /* height: 150px; */
     object-fit: cover;
@@ -105,7 +48,6 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* List Styling */
 ul, ol {
     margin-left: 30px;
     padding: 0;
@@ -115,7 +57,6 @@ li {
     margin-bottom: 8px;
 }
 
-/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -133,7 +74,6 @@ th {
     color: white;
 }
 
-/* Form Styling */
 form {
     margin-top: 20px;
 }
@@ -162,7 +102,6 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px;
